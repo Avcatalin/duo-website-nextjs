@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import footerImage from "../../../assets/img/logo-dark.png";
+import footerImage from "../../../assets/img/logo-dark.png"
 
 interface FooterProps {
   alt: string;
