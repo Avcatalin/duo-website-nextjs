@@ -1,0 +1,27 @@
+.breadcrumbs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumbs li {
+  position: relative;
+}
+.breadcrumbs li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 5px;
+  color: #7a7a7a;
+  transition: all 0.3s ease;
+}
+.breadcrumbs li a:hover {
+  color: #222;
+}
+.breadcrumbs li:not(:last-child):after {
+  content: "/";
+}
+.breadcrumbs li a.active {
+  color: #222;
+  margin-left: 5px;
+}

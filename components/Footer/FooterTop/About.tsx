@@ -19,7 +19,9 @@ const FooterAbout: React.FC<AboutFooterProps> = ({
     <>
       <h4 className={classes.footerHeading}>{title}</h4>
       <p className={classes.footerDescription}>{content}</p>
-      <Link href={ctaUrl}>{ctaLabel}</Link>
+      <Link className={classes.footerCta} href={ctaUrl}>
+        {ctaLabel}
+      </Link>
     </>
   );
 };

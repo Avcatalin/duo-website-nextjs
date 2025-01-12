@@ -19,6 +19,24 @@
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 1px;
 }
+.footerCta {
+  position: relative;
+  padding: 0.6rem 1.2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  user-select: none;
+}
+.footerCta:hover {
+  color: #000;
+  background: #fff;
+}
 .footerTop {
   display: flex;
   width: 100%;

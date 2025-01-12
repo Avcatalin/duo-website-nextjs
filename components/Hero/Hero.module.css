@@ -1,0 +1,16 @@
+.heroImage {
+  background-image: url("../../assets/img/banner-bg.jpg");
+  background-size: cover;
+  padding: 80px 20px;
+}
+.heroImage h1 {
+  font-size: 5rem;
+  color: #eeeeee;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  margin-left: auto;
+  margin-right: auto;
+}

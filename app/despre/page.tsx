@@ -1,11 +1,12 @@
 import React from "react";
+import Hero from "@/components/Hero/Hero";
 
 interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
   return (
     <div>
-      <h1>Despre</h1>
+      <Hero title="Despre" />
     </div>
   );
 };
