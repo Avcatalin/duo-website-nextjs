@@ -1,0 +1,41 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Web Design",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Primul pas catre succesul online, indiferent de natura, vechimea sau domeniul de activitate al companiei dumneavoastra, este sa creati un site web de inalta calitate care sa expuna eficient povestea, produsele si/sau serviciile si, in cele din urma, sa genereze vanzari. DUO ADVERTISING va poate ajuta cu:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dezvoltarea de site-uri de prezentare",
+            "Dezvoltarea de magazine online",
+            "Dezvoltarea de blog-uri personale",
+            "Redesign-ul de site-uri de prezentare si magazine online"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Branding",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Daca ceea ce va doriti este notorietate si atentia consumatorilor dumneavoastra potentiali, este importat sa acordati o atentie deosebita brandului pe care il construiti, care va fi practic „ambalajul” companiei pe care o detineti. Noi va putem oferi servicii profesionale de branding, precum:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Design identitate vizuala (logo si elemente specifice, carti de vizita, foi cu antet, etc.)",
+            "Consultanta in vederea conturarii strategiei de branding",
+            "Campanii de promovare in vederea construirii unei comunitati pentru brand"
+          ]
+        }
+      ]
+    }
+  ]
+}
