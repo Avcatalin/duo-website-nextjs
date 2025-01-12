@@ -5,7 +5,7 @@ interface HomeProps {}
 const HomeComponent: React.FC<HomeProps> = () => {
   return (
     <div>
-      <h1>Homepage</h1>
+      <h1>Acasa</h1>
     </div>
   );
 };

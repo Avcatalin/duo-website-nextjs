@@ -6,6 +6,8 @@ import facebookIcon from "../../assets/img/facebook.png";
 import linkedinIcon from "../../assets/img/linkedin-logo.png";
 import FooterContact from "./FooterTop/Contact";
 import FooterMenu from "./FooterTop/Menu";
+import FooterAbout from "./FooterTop/About";
+import classes from "./Footer.module.css";
 
 const menuLinks = [
   {
@@ -56,10 +58,18 @@ const socialLinks = [
 const Footer = () => {
   return (
     <div className="footer py-4">
-      <div className="footer-top">
+      <div className={classes.footerTop}>
         <div className="container px-4 flex flex-row items-start">
           <div className="w-2/5 text-center">
-            <h4 className="text-base uppercase font-bold mb-5">Meniu</h4>
+            <FooterAbout
+              title="De ce noi?"
+              content="Oricare ar fi obiectivul, echipa Duo Advertising are experienta si resursele necesare pentru a va ajuta sa le indepliniti."
+              ctaLabel="Hai sa ne cunoastem"
+              ctaUrl="/contact"
+            />
+          </div>
+          <div className="w-2/5 text-center">
+            <h4 className={classes.footerHeading}>Meniu</h4>
             {menuLinks.map((item, index) => (
               <FooterMenu
                 key={index}
@@ -69,17 +79,19 @@ const Footer = () => {
               />
             ))}
           </div>
-          <FooterContact
-            title="Contact"
-            email="contact@duoadv.ro"
-            phoneNo="+40771190628"
-            phoneDisplay="+40 771 190 628"
-            schedule="L-V: 09:00 - 17:00"
-          />
+          <div className="w-2/5 text-center">
+            <FooterContact
+              title="Contact"
+              email="contact@duoadv.ro"
+              phoneNo="+40771190628"
+              phoneDisplay="+40 771 190 628"
+              schedule="L-V: 09:00 - 17:00"
+            />
+          </div>
         </div>
       </div>
 
-      <div className="footer-bottom">
+      <div className={classes.footerBottom}>
         <div className="container px-4 flex flex-row items-center">
           <CopyrightComponent year="2025" />
           <FooterLogoComponent url="/" alt="Duo Design Advertising" />
